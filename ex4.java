@@ -16,5 +16,7 @@ public class ex4{
             else if (headOrTail == "Tails") countTails++;
         }
         System.out.println("Heads: " + countHeads + ", " + "Tails: " + countTails);
+        if (countHeads > countTails) System.out.println("You won");
+        else System.out.println("You lost");
     }
 }
